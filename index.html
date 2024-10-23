@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Car Subscription Platform for Dealerships | Blinker.com.au</title>
+    <link href="findyourmovie.604be99f.css" rel="prefetch">
+    <link href="app.a5feeff2.css" rel="preload" as="style">
+    <link href="chunk-vendors.efadcd84.css" rel="preload" as="style">
+    <link href="chunk-vendors.efadcd84.css" rel="stylesheet">
+    <link href="app.a5feeff2.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="findyourmovie.604be99f.css">
+    <script src="index.js"></script>
+    <script src="movies.js" defer></script>
+</head>
+<body>
+    <noscript><strong>We're sorry but blinker-webapp doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript>
+    <div data-v-5fdf2371 id="app">
+        <div data-v-040c1d60 data-v-5fdf2371 class="flex flex-col" style="display: flex; flex: 1 1 0%;">
+            <div data-v-390ceb07 data-v-040c1d60 class="navbar flex flex-col">
+                <div data-v-390ceb07 class="flex content-wrapper justify-between align-center" style="flex-direction: row; z-index: 1005;">
+                    <div data-v-390ceb07 class="logo">
+                        <img data-v-390ceb07 src="assets/whitelogo.39850b27.png" alt="blinker logo" class="logo">
+                    </div>
+                    <div data-v-390ceb07 class="links flex align-center justify-between">
+                        <a data-v-390ceb07 href="" class="link router-link-active">Home</a>
+                        <a data-v-390ceb07 href="" class="link router-link-exact-active router-link-active">Find Movies</a>
+                        <a data-v-390ceb07 class="btn-contact">Contact</a>
+                    </div>
+                    <div data-v-48b363cf data-v-390ceb07 id="phone-nav">
+                        <div data-v-48b363cf class="bento-menu show-anim-in" onclick="openMenu()">
+                            <div data-v-48b363cf style="background-color: rgb(255, 255, 255);"></div>
+                            <div data-v-48b363cf style="background-color: rgb(255, 255, 255);"></div>
+                            <div data-v-48b363cf style="background-color: rgb(255, 255, 255);"></div>
+                            <div data-v-48b363cf style="background-color: rgb(255, 255, 255);"></div>
+                            <div data-v-48b363cf style="background-color: rgb(255, 255, 255);"></div>
+                            <div data-v-48b363cf style="background-color: rgb(255, 255, 255);"></div>
+                            <div data-v-48b363cf style="background-color: rgb(255, 255, 255);"></div>
+                            <div data-v-48b363cf style="background-color: rgb(255, 255, 255);"></div>
+                            <div data-v-48b363cf style="background-color: rgb(255, 255, 255);"></div>
+                        </div>
+                        <div data-v-48b363cf class="close-btn" onclick="closeMenu()">
+                        </div>
+                        <div data-v-48b363cf class="showMenu">
+                            <a data-v-48b363cf href="" class="link router-link-active" onclick="closeMenu()">Home</a>
+                            <a data-v-48b363cf href="" class="link router-link-exact-active router-link-active" onclick="closeMenu()">Find Movies</a>
+                            <a data-v-48b363cf href="" class="link router-link-active" onclick="closeMenu()">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-v-390ceb07 class="content-wrapper flex-col align-center" style="margin-top: 40px;">
+                    <h1 data-v-390ceb07="">Browse Movies</h1>
+                    <div data-v-390ceb07 class="input-wrap">
+                        <input data-v-390ceb07 type="text" id="search-input" placeholder="Search by Title">
+                        <div data-v-390ceb07 class="search-wrapper flex justify-center align-center">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                </div>
+                <div data-v-390ceb07 class="overlay">
+                </div>
+            </div>
+            <section data-v-040c1d60 id="search">
+                <div data-v-66aecfa2 data-v-040c1d60 id="filter" class="content-wrapper justify-between">
+                    <h1 data-v-66aecfa2 class="search-info">
+                        <span data-v-66aecfa2 class="black-txt">Search results:</span>
+                    </h1>
+                </div>
+                <div data-v-ca62299c data-v-040c1d60 id="cars">
+                    <div data-v-ca62299c class="content-wrapper">
+                        <div class="movie"></div>
+                        <div data-v-ca62299c class="loading-state flex justify-center">
+                            <i data-v-cf78a876 data-v-ca62299c class="fa-solid fa-spinner" style="font-size: 50px;color: rgb(96, 48, 177);"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div role="tooltip" id="el-tooltip-8246" aria-hidden="true" class="el-tooltip__popper is-dark" style="display: none; transform-origin: center bottom; z-index: 2057;">
+        <span>0</span>
+        <div x-arrow="" class="popper__arrow" style="left: 13.5px;"></div>
+    </div>
+</body>
+</html>
